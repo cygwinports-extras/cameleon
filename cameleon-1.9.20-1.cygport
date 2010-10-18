@@ -9,6 +9,8 @@ PKG_NAMES="${PN} ocaml-cameleon2"
 cameleon_CONTENTS="usr/bin/ ${OCAML_LIBDIR#/}/ocamldoc/ usr/share/"
 ocaml_cameleon2_CONTENTS="${OCAML_LIBDIR#/}/cameleon2/"
 
+DIFF_EXCLUDES="configure"
+
 src_compile() {
 	cd ${S}
 	autoconf -f
