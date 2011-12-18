@@ -1,0 +1,12 @@
+This API is only in lablgtk2 SVN, but has yet to be released
+
+--- origsrc/cameleon-1.9.21/src/editor/ed_main.ml	2011-01-13 03:57:39.000000000 -0600
++++ src/cameleon-1.9.21/src/editor/ed_main.ml	2011-12-18 01:34:53.650021300 -0600
+@@ -75,7 +75,6 @@ let main () =
+      in
+      Cam_hooks.warning_message (Ed_misc.to_utf8 m);
+     );
+-  GtkThread.set_do_jobs_delay 0.02;
+   GtkThread.main ();
+   Ed_view.iter_factories
+     (fun f -> Ed_misc.catch_print_exceptions (fun () -> f#on_exit) ());

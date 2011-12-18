@@ -1,8 +1,0 @@
-category: Devel OCaml
-requires: ocaml-lablgtk2 ocaml-lablglade2 ocaml-lablgtksourceview2 ocaml-pcre ocaml-xml-light
-external-source: cameleon
-sdesc: "OCaml Cameleon IDE libraries"
-ldesc: "Cameleon aims to become an integrated development environment 
-for Objective-Caml, and eventually other languages. Cameleon also comes 
-with various tools and libraries which can be used to develop other 
-OCaml applications."

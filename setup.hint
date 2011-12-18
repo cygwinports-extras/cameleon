@@ -1,5 +1,5 @@
 category: Devel OCaml
-requires: libgcc1 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libncurses10 libpango1.0_0 libpcre0 ocaml-lablgtk2 ocaml-lablglade2 ocaml-lablgtksourceview2 ocaml-pcre
+requires: libgcc1 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libncurses10 libpango1.0_0 libpcre0 ocaml-base ocaml-config-file ocaml-lablgtk2 ocaml-lablgtk-extras ocaml-lablglade2 ocaml-lablgtksourceview2 ocaml-pcre ocaml-xml-light
 sdesc: "OCaml IDE"
 ldesc: "Cameleon aims to become an integrated development environment 
 for Objective-Caml, and eventually other languages. Cameleon also comes 

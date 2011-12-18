@@ -3,11 +3,7 @@ inherit ocaml
 DESCRIPTION="Objective Caml IDE"
 HOMEPAGE="http://home.gna.org/cameleon/"
 SRC_URI="http://download.gna.org/cameleon/${PN}_${PV}.tar.gz"
-PATCH_URI="1.9.19-checkocaml.patch"
-
-PKG_NAMES="${PN} ocaml-cameleon2"
-cameleon_CONTENTS="usr/bin/ ${OCAML_LIBDIR#/}/ocamldoc/ usr/share/"
-ocaml_cameleon2_CONTENTS="${OCAML_LIBDIR#/}/cameleon2/"
+PATCH_URI="1.9.21-lablgtk2-stable.patch"
 
 DIFF_EXCLUDES="configure"
 
